@@ -3,12 +3,13 @@
 
 #include "Board.h"
 
-class TerminalRenderer {
+class TerminalRenderer
+{
 public:
-	TerminalRenderer(Board*);
-	void render(bool);
+    TerminalRenderer(Board*);
+    void render(bool);
 private:
-	Board* board;
+    Board* board;
 };
 
 #endif
